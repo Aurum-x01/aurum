@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aurum — розробка сайтів та ботів</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg class="bg-lines" viewBox="0 0 1200 900" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M -50 120 L 250 120 L 320 190 L 700 190 L 760 260 L 1250 260" stroke="#5b8cff"/>
+  <path d="M 1250 80 L 900 80 L 840 150 L 500 150 L 430 220 L -50 220" stroke="#9b6bff"/>
+  <path d="M -50 480 L 300 480 L 360 540 L 780 540 L 830 600 L 1250 600" stroke="#45d4ff"/>
+  <path d="M 1250 780 L 950 780 L 880 720 L 560 720 L 500 660 L -50 660" stroke="#5b8cff"/>
+  <path d="M -50 850 L 260 850 L 320 800 L 640 800" stroke="#9b6bff"/>
+  <circle cx="250" cy="120" r="3" fill="#5b8cff" style="animation-delay:0.4s"/>
+  <circle cx="700" cy="190" r="3" fill="#5b8cff" style="animation-delay:0.9s"/>
+  <circle cx="900" cy="80" r="3" fill="#9b6bff" style="animation-delay:0.5s"/>
+  <circle cx="500" cy="150" r="3" fill="#9b6bff" style="animation-delay:1s"/>
+  <circle cx="300" cy="480" r="3" fill="#45d4ff" style="animation-delay:0.6s"/>
+  <circle cx="780" cy="540" r="3" fill="#45d4ff" style="animation-delay:1.1s"/>
+  <circle cx="950" cy="780" r="3" fill="#5b8cff" style="animation-delay:0.7s"/>
+  <circle cx="560" cy="720" r="3" fill="#5b8cff" style="animation-delay:1.2s"/>
+</svg>
+
+<header>
+  <nav class="wrap">
+    <div class="logo">aurum<span class="caret">_</span></div>
+    <div class="navlinks">
+      <a href="#services">Послуги</a>
+      <a href="#stack">Стек</a>
+      <a href="#process">Процес</a>
+      <a href="#contact">Контакти</a>
+    </div>
+    <a href="#contact" class="btn btn-ghost" style="padding:9px 16px;">Написати</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" style="border:none; padding-top:96px;">
+    <div>
+      <div class="tag"><span class="dot"></span> вільний для нових проєктів</div>
+      <h1>Сайти та боти,<br>написані <span class="grad">на совість</span></h1>
+      <p class="lede">Розробляю сайти під ключ — frontend, backend, HTML/CSS/JS, Node.js — а також telegram- і discord-боти на Python і Node.js.</p>
+      <p class="slogan"><b>aurum</b> — твій код твоє золото</p>
+      <div class="cta-row">
+        <a href="#contact" class="btn btn-primary">Обговорити проєкт</a>
+        <a href="#services" class="btn btn-ghost">Що я роблю</a>
+      </div>
+    </div>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span style="background:#e0605c"></span>
+        <span style="background:#e0b95c"></span>
+        <span style="background:#5cbf6a"></span>
+        <span class="fname">aurum.js</span>
+      </div>
+      <div class="terminal-body" id="typewriter"></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-head">
+      <h2>Що я роблю</h2>
+      <span class="idx">послуги</span>
+    </div>
+    <div class="services">
+      <div class="service">
+        <span class="glyph">&lt;/&gt;</span>
+        <h3>Frontend</h3>
+        <p>Верстка та інтерфейси на HTML, CSS, JavaScript — швидкі, адаптивні, без зайвого коду.</p>
+      </div>
+      <div class="service">
+        <span class="glyph">{ }</span>
+        <h3>Backend</h3>
+        <p>Серверна логіка, API та бази даних на Node.js — стабільна основа під будь-яке навантаження.</p>
+      </div>
+      <div class="service">
+        <span class="glyph">▲</span>
+        <h3>Сайти під ключ</h3>
+        <p>Від макета до продакшену: лендинги, портфоліо, каталоги — повний цикл розробки.</p>
+      </div>
+      <div class="service">
+        <span class="glyph">::</span>
+        <h3>Telegram-боти</h3>
+        <p>Боти на Python або Node.js: розсилки, магазини, підтримка, автоматизація чатів.</p>
+      </div>
+      <div class="service">
+        <span class="glyph">##</span>
+        <h3>Discord-боти</h3>
+        <p>Модерація, ролі, ігрові механіки, інтеграції — під потреби конкретного сервера.</p>
+      </div>
+      <div class="service">
+        <span class="glyph">→</span>
+        <h3>Підтримка</h3>
+        <p>Допомога з хостингом, доробками та виправленням багів після запуску.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <div class="section-head">
+      <h2>Технології</h2>
+      <span class="idx">стек</span>
+    </div>
+    <div class="stack-row">
+      <span class="chip"><b>HTML</b> / CSS</span>
+      <span class="chip"><b>JavaScript</b></span>
+      <span class="chip"><b>Node.js</b></span>
+      <span class="chip"><b>Python</b></span>
+      <span class="chip">Discord.js / discord.py</span>
+      <span class="chip">Telegram Bot API</span>
+      <span class="chip">REST API</span>
+      <span class="chip">SQL / NoSQL</span>
+      <span class="chip">Git</span>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="section-head">
+      <h2>Як проходить робота</h2>
+      <span class="idx">процес</span>
+    </div>
+    <div class="flow">
+      <div class="flow-step">
+        <span class="n">01</span>
+        <h4>Обговорення</h4>
+        <p>Уточнюємо задачу, функціонал і терміни.</p>
+      </div>
+      <div class="flow-step">
+        <span class="n">02</span>
+        <h4>План і оцінка</h4>
+        <p>Фіксую обсяг робіт, вартість і етапи.</p>
+      </div>
+      <div class="flow-step">
+        <span class="n">03</span>
+        <h4>Розробка</h4>
+        <p>Пишу код, показую проміжні результати.</p>
+      </div>
+      <div class="flow-step">
+        <span class="n">04</span>
+        <h4>Запуск</h4>
+        <p>Тестування, деплой і передача проєкту.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-head">
+      <h2>Зв'язатися</h2>
+      <span class="idx">контакти</span>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card tg">
+        <div class="contact-icon"><img src="https://cdn.pixabay.com/photo/2021/12/27/10/50/telegram-6896827_960_720.png" alt="telegram_logo" style="border-radius: 10px;"></div>
+        <div class="contact-meta">
+          <div class="label">telegram</div>
+          <div class="handle">@Vova_Tuman_228</div>
+        </div>
+        <a href="https://t.me/@Vova_Tuman_228"><button class="send-btn">написати</button></a>
+      </div>
+      <div class="contact-card dc">
+        <div class="contact-icon"><img src="https://pngimg.com/uploads/discord/small/discord_PNG8.png" alt="discord_logo" style="border-radius: 10px;"></div>
+        <div class="contact-meta">
+          <div class="label">discord</div>
+          <div class="handle">@vovatuman</div>
+        </div>
+        <button class="copy-btn" data-copy="@vovatuman">копіювати</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>aurum — твій код твоє золото</span>
+  <span>frontend / backend / telegram / discord</span>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
